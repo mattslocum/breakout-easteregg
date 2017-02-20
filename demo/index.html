@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Breakout Demo</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.3/require.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="demo.js"></script>
+
+    <style type="text/css">
+        body {
+            padding-top: 50px;
+        }
+        #images {
+            font-size:0;
+        }
+        .img {
+            background-size: cover;
+            background-position: center center;
+            display: inline-block;
+            height: 120px;
+            margin: 2px;
+            position: relative;
+            width: 120px;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">Breakout Demo</a>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+
+    <h1>Breakout Demo</h1>
+    <p class="lead">Do you have a page with too many boxes. Why not turn them into a game with an easter egg?
+    <button class="btn btn-success" id="play">Play</button></p>
+<!--    <button class="btn btn-default">Reset</button>-->
+    <div id="images"></div>
+
+</div><!-- /.container -->
+
+</body>
+</html>
