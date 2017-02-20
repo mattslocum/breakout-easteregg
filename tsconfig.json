@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "module": "AMD",
+    "noImplicitAny": true,
+    "types" : ["jquery"]
+  },
+  "files": [
+    "src/breakout.ts"
+  ]
+}
